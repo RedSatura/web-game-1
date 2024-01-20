@@ -1,0 +1,61 @@
+body {
+	background-color: #32002D;
+	color: white;
+	font-family: monospace;
+	padding: 10px;
+}
+
+button {
+	text-align: center;
+}
+
+.container {
+	border-radius: 5px;
+	color: black;
+	display: inline-block;
+	padding: 10px;
+}
+
+.req-upgrade-button {
+	display: block;
+	width: 100%;
+	padding: 5px;
+}
+
+.req-upgrade-button p {
+	margin: 2px 0 2px 0;
+}
+
+#grid {
+	display: inline-grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: 1fr;
+	gap: 10px;
+}
+
+#reqs-container {
+	background-color: #FF8CC8;
+	border: 5px solid #FF504B;
+}
+
+#req-upgrade-container {
+	background-color: #FFCFE6;
+	border: 5px solid #FF908C;
+	min-width: 30%;
+}
+
+#req-upgrade-buttons-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 5px;
+}
+
+#quarter-container {
+	background-color: #4BA0FF;
+	border: 5px solid #4A68FF;
+}
+
+#statistics-container {
+	background-color: #30F267;
+	border: 5px solid #47F5B3;
+}
